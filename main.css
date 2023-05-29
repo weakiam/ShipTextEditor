@@ -1,0 +1,76 @@
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Ubuntu&display=swap');
+  body{
+    background-color: #111;
+    padding: 10px 0 0 0;
+    margin: 0;
+    color: rgb(243, 243, 243);
+    font-family:Arial, Helvetica, sans-serif
+}
+textarea{
+    background-color: rgb(50, 50, 50);
+    margin: 90px 0 auto;
+    padding: 50px;
+    color: rgb(240, 240, 240);
+    font-size: 2.2rem;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: auto;
+}
+textarea:focus{
+    border: none;
+    outline: none;
+}
+
+button {
+    background: none;
+    border: none; 
+    margin: 0 10px;
+    padding: 0;
+    
+    font-size: 1.2rem;
+    color: rgb(142, 142, 142);
+    cursor: pointer;
+    padding: 12px 35px ;
+    background-color: rgba(50, 50, 50, 0.27);
+    border-radius: 40px;
+
+ }
+
+ button:active{
+    background-color: white;
+ }
+button:hover{
+    background-color: #8e8e8e28;
+}
+
+ .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+ }
+
+ textarea::-webkit-scrollbar {
+    width: 0.3em;
+    border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover{
+    cursor: pointer;
+}
