@@ -1,2 +1,2 @@
-# Text editor with no features at all.
-***Now that's a great feature!***
+# A very simple web editor.
+***WOW SO AMAZING***
