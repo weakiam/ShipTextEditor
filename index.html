@@ -1,23 +1,38 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
-
 </head>
-<html>
 <body>
-<form>
-<textarea rows="17" cols="70">  
-</textarea> 
-
-</form> 
-<div class="buttons">
-
-    <button id="saveButton">Save</button> 
-    <button id="clearButton">Clear</button>
-
-</div>
-
-<script src="script.js"> </script>
+    <form>
+        <textarea id="textbox" placeholder="ShipTexteDitor(STD)"></textarea>
+    </form>
+    <div class="menu">
+        <!-- <p>click arrow to hide menu</p> -->
+    </div>
+    <div class="buttons">
+        <button class="click" id="fontButton"></button>
+        <button class="click inc" id="incButton">+</button>
+        <button class="click dec" id="decButton">-</button>
+        <button class="click" id="leftAlign">l</button>
+        <button class="click" id="centerAlign">c</button>
+        <button class="click" id="rightAlign">r</button>
+        <button class="click" id="lightButton">light</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
+
+<!-- 
+TODO:
+- Implement a dark/light mode switcher.
+- Make it so that saving saves all of the settings, font, font size and dark/light mode.  
+OPTIONAL:
+- Make a settings menu that will expand the menu with all of these functions. 
+- create a lightning donation thing. 
+- adjustable textarea width.
+-->
